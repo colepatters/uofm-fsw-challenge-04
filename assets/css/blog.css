@@ -1,0 +1,28 @@
+h3 {
+    margin: 0;
+}
+
+#posts-list {
+    list-style: none;
+    
+    display: flex;
+    flex-direction: column-reverse;
+    gap: 12px;
+}
+
+.post {
+    display: flex;
+    flex-direction: column;
+    gap: 4px
+}
+
+.post footer {
+    display: flex;
+    align-items: baseline;
+    gap: 10px;
+}
+
+.post footer span {
+    font-size: small;
+    color: gray;
+}

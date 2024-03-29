@@ -1,0 +1,19 @@
+form {
+    display: flex;
+    flex-direction: column;
+
+    row-gap: 10px;
+}
+
+input, textarea {
+    padding: 5px
+}
+
+textarea {
+    background-color: unset;
+    resize: none;
+}
+
+label {
+    margin-bottom: -8px;
+}
